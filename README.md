@@ -25,12 +25,21 @@
 9. **(Optional)** Add any advertisement codes in `/index.html` (Like [Adsterra](https://beta.publishers.adsterra.com/referral/fMYMsgM7NM))
 10. Run `npm run build` in the terminal to build the production files
 11. Upload the contents of the `/dist` folder to production. (**Jink**, Netlify, etc.)
-12. Configure nginx to work with SPA. Add this in your server block or vhost
+12. Configure your webserver to work with SPA. If you use nginx, add this in your server block or vhost
 
 ```nginx
 location / {
    try_files $uri $uri/ /index.html;
 }
+```
+Otherwise, create a .htaccess file in the root directory and add 
+
+```
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
 ```
 
 [![Adsterra](https://landings-cdn.adsterratech.com/referralBanners/gif/468x60_adsterra_reff.gif)](https://beta.publishers.adsterra.com/referral/fMYMsgM7NM)
