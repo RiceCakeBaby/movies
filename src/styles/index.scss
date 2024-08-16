@@ -9,6 +9,7 @@ $top-bar-index: 20;
 $player-index: 30;
 $title-index: 30;
 
+
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +28,14 @@ body {
   background-color: $background-color;
 
   height: 100vh;
+
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0; 
+  background: transparent;
 }
 
 #root {
