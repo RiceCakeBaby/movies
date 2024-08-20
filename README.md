@@ -7,7 +7,8 @@
 
 ## 🖥️ Requirements
 - Static Web Hosting - Example: **[Jink](https://clients.jink.host/link.php?id=5)**
-- Computer with Windows, Linux or MacOS. Android works but you'll have to figure it out yourself.
+- Computer with Windows, Linux or MacOS.
+- Common sense.
 
 ## 📂 Download
 
