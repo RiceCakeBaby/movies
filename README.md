@@ -2,7 +2,7 @@
 
 ## 🔗 Links
 - **[Demo](https://fossa.tv)**
-- **[Discord](https://discord.com/invite/8tQsDUyqu2)**
+- **[Telegram + Support](https://t.me/rstreamapi)**
 - **[git.cdak.ws](https://git.cdak.ws)**
 
 ## 🖥️ Requirements
@@ -16,6 +16,7 @@
 2. Run `git clone https://git.cdak.ws/cdak/Stream.git`
 
 ## 🔧 Setup
+0. Join the telegram https://t.me/rstreamapi
 1. Install Node.js if you haven't already from [nodejs.org](https://nodejs.org)
 2. Download the script using instructions above.
 3. Open a terminal in the script directory.
